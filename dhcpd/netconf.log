@@ -1,0 +1,5 @@
+<INFO> 3-Oct-2018::14:38:45.290 felucia confd[4241]: netconf id=28 new tcp session for user "etu" from ::1
+<INFO> 3-Oct-2018::16:06:39.275 felucia confd[6924]: netconf id=28 new tcp session for user "etu" from ::1
+<INFO> 3-Oct-2018::16:06:43.899 felucia confd[6924]: netconf id=28 got rpc: {urn:ietf:params:xml:ns:netconf:base:1.0}get-config attrs: message-id="urn:uuid:c5a5b1e2-0886-48b6-9806-3dd77d141cac"
+<INFO> 3-Oct-2018::16:06:43.906 felucia confd[6924]: netconf id=28 get-config source=running attrs: message-id="urn:uuid:c5a5b1e2-0886-48b6-9806-3dd77d141cac"
+<INFO> 3-Oct-2018::16:06:43.916 felucia confd[6924]: netconf id=28 sending rpc-reply, attrs: message-id="urn:uuid:c5a5b1e2-0886-48b6-9806-3dd77d141cac"

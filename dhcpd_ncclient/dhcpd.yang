@@ -1,0 +1,106 @@
+
+module dhcpd {
+
+    namespace "http://univ-tlse3.fr/ns/dhcpd";
+    prefix dhcpd;
+
+    import ietf-inet-types {
+        prefix inet;
+    }
+
+    organization
+        "University of Toulouse";
+    contact
+        "E. Lavinal <mailto: Emmanuel.Lavinal@irit.fr>";
+    description
+       "This module contains a collection of YANG definitions for
+        managing a simple DHCP server.";
+    revision 2016-09-26 {
+       description
+         "Initial revision.";
+    }
+
+    /*
+     * Typedef
+     */
+    typedef loglevel {
+        type enumeration {
+            enum kern;
+            enum daemon;
+            enum local7;
+        }
+    }
+
+    /*
+     * Configuration data nodes
+     */
+    container dhcp {
+
+        description "DHCP server configuration.";
+
+        leaf defaultLeaseTime {
+            type uint32;
+            default 600; // 10 min
+            description "The default lease time (global parameter).";
+        }
+        leaf maxLeaseTime {
+            type uint32;
+            default 7200; // 120 min
+            description "The max lease time (global parameter).";
+        }
+        leaf logFacility {
+            type loglevel;
+            default local7;
+            description "The type of program that is logging the message.";
+        }
+        leaf-list dns {
+            type inet:ipv4-address;
+            max-elements 2;
+            description "Domain name servers (max 2).";
+        }
+
+        container subNetworks {
+            list subNetwork {
+                key "net mask";
+                description "A subnet that can be assigned by the DHCP server.";
+                leaf net {
+                    type inet:ipv4-address;
+                    description "The subnet IP address.";
+                }
+                leaf mask {
+                    type inet:ipv4-address;
+                    description "The mask of the subnet.";
+                }
+                container range {
+                    // presence ""; // est-ce utile ici?
+                    description "A range of IP addresses.";
+                    leaf dynamicBootP {
+                        type boolean;
+                        default false;
+                        description
+                            "Addresses in this range may be dynamically assigned
+                             to BOOTP clients (as well as DHCP clients).";
+                    }
+                    leaf lowAddr {
+                        type inet:ipv4-address;
+                        mandatory true;
+                        description "Lower address of this range.";
+                    }
+                    leaf hiAddr {
+                        type inet:ipv4-address;
+                        description "Higher address of this range.";
+                    }
+                }
+                leaf routers {
+                    type string;
+                    description "Default router";
+                }
+                leaf maxLeaseTime {
+                    type uint32;
+                    default 7200; // 120min
+                    description "The max lease time (specific to this range).";
+                }
+            } // list
+        } // subNets container
+    } // dhcp container
+} // module

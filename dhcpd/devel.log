@@ -1,0 +1,29 @@
+<INFO> 3-Oct-2018::14:36:09.937 felucia confd[4137]: confd embedded apps in early_phase0: []
+<INFO> 3-Oct-2018::14:36:10.026 felucia confd[4137]: confd mmap_schema handle_info got msg: timeout
+<INFO> 3-Oct-2018::14:36:10.039 felucia confd[4137]: confd embedded apps in phase0: []
+<INFO> 3-Oct-2018::14:36:10.241 felucia confd[4137]: devel-cdb init files found in ./confd-cdb: aaa_init.xml
+<INFO> 3-Oct-2018::14:36:10.273 felucia confd[4137]: devel-cdb Compacted CDB journal file: 8 ms (87 nodes in memory, disk size 1.43 KiB -> 1.39 KiB)
+<INFO> 3-Oct-2018::14:36:10.278 felucia confd[4137]: confd embedded apps in phase1: []
+<ERR> 3-Oct-2018::14:36:10.304 felucia confd[4137]: devel-aaa Module "tailf-webui" in access rule "any-group/tailf-webui-user" does not exist - ignoring rule
+<INFO> 3-Oct-2018::14:36:10.323 felucia confd[4137]: confd embedded apps in phase1_delayed: []
+<INFO> 3-Oct-2018::14:36:10.327 felucia confd[4137]: confd embedded apps in phase2: []
+<INFO> 3-Oct-2018::14:38:17.887 felucia confd[4241]: confd embedded apps in early_phase0: []
+<INFO> 3-Oct-2018::14:38:17.982 felucia confd[4241]: confd mmap_schema handle_info got msg: timeout
+<INFO> 3-Oct-2018::14:38:17.995 felucia confd[4241]: confd embedded apps in phase0: []
+<INFO> 3-Oct-2018::14:38:18.027 felucia confd[4241]: devel-cdb Loaded oper data from ./confd-cdb/O.cdb (4 bytes data in 0.000s)
+<INFO> 3-Oct-2018::14:38:18.045 felucia confd[4241]: devel-cdb Loaded schema file: ./confd-cdb/C.cdb (v3 from 6.4)
+<INFO> 3-Oct-2018::14:38:18.047 felucia confd[4241]: devel-cdb Loaded configuration from ./confd-cdb/A.cdb (1.39 KiB data, 1 transaction in 0.000s)
+<INFO> 3-Oct-2018::14:38:18.082 felucia confd[4241]: confd embedded apps in phase1: []
+<ERR> 3-Oct-2018::14:38:18.112 felucia confd[4241]: devel-aaa Module "tailf-webui" in access rule "any-group/tailf-webui-user" does not exist - ignoring rule
+<INFO> 3-Oct-2018::14:38:18.125 felucia confd[4241]: confd embedded apps in phase1_delayed: []
+<INFO> 3-Oct-2018::14:38:18.130 felucia confd[4241]: confd embedded apps in phase2: []
+<INFO> 3-Oct-2018::16:04:55.913 felucia confd[6924]: confd embedded apps in early_phase0: []
+<INFO> 3-Oct-2018::16:04:56.007 felucia confd[6924]: confd mmap_schema handle_info got msg: timeout
+<INFO> 3-Oct-2018::16:04:56.020 felucia confd[6924]: confd embedded apps in phase0: []
+<INFO> 3-Oct-2018::16:04:56.053 felucia confd[6924]: devel-cdb Loaded oper data from ./confd-cdb/O.cdb (4 bytes data in 0.000s)
+<INFO> 3-Oct-2018::16:04:56.071 felucia confd[6924]: devel-cdb Loaded schema file: ./confd-cdb/C.cdb (v3 from 6.4)
+<INFO> 3-Oct-2018::16:04:56.074 felucia confd[6924]: devel-cdb Loaded configuration from ./confd-cdb/A.cdb (1.39 KiB data, 1 transaction in 0.000s)
+<INFO> 3-Oct-2018::16:04:56.109 felucia confd[6924]: confd embedded apps in phase1: []
+<ERR> 3-Oct-2018::16:04:56.133 felucia confd[6924]: devel-aaa Module "tailf-webui" in access rule "any-group/tailf-webui-user" does not exist - ignoring rule
+<INFO> 3-Oct-2018::16:04:56.146 felucia confd[6924]: confd embedded apps in phase1_delayed: []
+<INFO> 3-Oct-2018::16:04:56.149 felucia confd[6924]: confd embedded apps in phase2: []

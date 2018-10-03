@@ -1,0 +1,76 @@
+<INFO> 3-Oct-2018::14:36:09.927 felucia confd[4137]: - Writing daemon log to /home/etu/Téléchargements/dhcpd/confd.log
+<INFO> 3-Oct-2018::14:36:09.929 felucia confd[4137]: - Writing NETCONF log to /home/etu/Téléchargements/dhcpd/netconf.log
+<INFO> 3-Oct-2018::14:36:09.929 felucia confd[4137]: - Writing audit log to /home/etu/Téléchargements/dhcpd/audit.log
+<INFO> 3-Oct-2018::14:36:09.929 felucia confd[4137]: - Daemon logging started
+<INFO> 3-Oct-2018::14:36:09.929 felucia confd[4137]: - Writing developer log to /home/etu/Téléchargements/dhcpd/devel.log
+<DEBUG> 3-Oct-2018::14:36:09.939 felucia confd[4137]: - Loading file /home/etu/confd-6.4/etc/confd/ietf-netconf-monitoring.fxs
+<DEBUG> 3-Oct-2018::14:36:09.940 felucia confd[4137]: - Loading file /home/etu/confd-6.4/etc/confd/tailf-common-monitoring.fxs
+<DEBUG> 3-Oct-2018::14:36:09.940 felucia confd[4137]: - Loading file /home/etu/confd-6.4/etc/confd/ietf-netconf-acm.fxs
+<DEBUG> 3-Oct-2018::14:36:09.941 felucia confd[4137]: - Loading file /home/etu/confd-6.4/etc/confd/iana-crypt-hash.fxs
+<DEBUG> 3-Oct-2018::14:36:09.941 felucia confd[4137]: - Loading file /home/etu/confd-6.4/etc/confd/ietf-yang-library.fxs
+<DEBUG> 3-Oct-2018::14:36:09.941 felucia confd[4137]: - Loading file /home/etu/confd-6.4/etc/confd/ietf-netconf-notifications.fxs
+<DEBUG> 3-Oct-2018::14:36:09.942 felucia confd[4137]: - Loading file ./dhcpd.fxs
+<DEBUG> 3-Oct-2018::14:36:09.942 felucia confd[4137]: - Loading file /home/etu/confd-6.4/etc/confd/tailf-netconf-monitoring.fxs
+<DEBUG> 3-Oct-2018::14:36:09.943 felucia confd[4137]: - Loading file /home/etu/confd-6.4/etc/confd/tailf-confd-monitoring.fxs
+<DEBUG> 3-Oct-2018::14:36:09.944 felucia confd[4137]: - Loading file /home/etu/confd-6.4/etc/confd/tailf-acm.fxs
+<DEBUG> 3-Oct-2018::14:36:09.945 felucia confd[4137]: - Loading file /home/etu/confd-6.4/etc/confd/tailf-rollback.fxs
+<DEBUG> 3-Oct-2018::14:36:09.945 felucia confd[4137]: - Loading file /home/etu/confd-6.4/etc/confd/tailf-kicker.fxs
+<DEBUG> 3-Oct-2018::14:36:09.945 felucia confd[4137]: - Loading file /home/etu/confd-6.4/etc/confd/tailf-aaa.fxs
+<DEBUG> 3-Oct-2018::14:36:09.950 felucia confd[4137]: - Loading file /home/etu/confd-6.4/etc/confd/confd.ccl
+<INFO> 3-Oct-2018::14:36:10.007 felucia confd[4137]: - Starting to listen for Internal IPC on 127.0.0.1:4565
+<INFO> 3-Oct-2018::14:36:10.241 felucia confd[4137]: - CDB load: processing file: ./confd-cdb/aaa_init.xml
+<INFO> 3-Oct-2018::14:36:10.332 felucia confd[4137]: - Starting to listen for NETCONF TCP on 0.0.0.0:2023
+<INFO> 3-Oct-2018::14:36:10.362 felucia confd[4137]: - Starting to listen for CLI SSH on 0.0.0.0:2024
+<INFO> 3-Oct-2018::14:36:10.464 felucia confd[4137]: - ConfD started vsn: 6.4
+<INFO> 3-Oct-2018::14:37:03.680 felucia confd[4137]: - ConfD stopping (confd --stop called by etu in /home/etu/Téléchargements/dhcpd)
+<INFO> 3-Oct-2018::14:37:03.688 felucia confd[4137]: - Stopping to listen for NETCONF TCP on 0.0.0.0:2023
+<INFO> 3-Oct-2018::14:37:03.809 felucia confd[4137]: - Daemon logging terminating, reason: shutdown
+<INFO> 3-Oct-2018::14:38:17.877 felucia confd[4241]: - Writing daemon log to /home/etu/Téléchargements/dhcpd/confd.log
+<INFO> 3-Oct-2018::14:38:17.879 felucia confd[4241]: - Writing NETCONF log to /home/etu/Téléchargements/dhcpd/netconf.log
+<INFO> 3-Oct-2018::14:38:17.879 felucia confd[4241]: - Writing audit log to /home/etu/Téléchargements/dhcpd/audit.log
+<INFO> 3-Oct-2018::14:38:17.879 felucia confd[4241]: - Daemon logging started
+<INFO> 3-Oct-2018::14:38:17.879 felucia confd[4241]: - Writing developer log to /home/etu/Téléchargements/dhcpd/devel.log
+<DEBUG> 3-Oct-2018::14:38:17.889 felucia confd[4241]: - Loading file /home/etu/confd-6.4/etc/confd/ietf-netconf-monitoring.fxs
+<DEBUG> 3-Oct-2018::14:38:17.890 felucia confd[4241]: - Loading file /home/etu/confd-6.4/etc/confd/tailf-common-monitoring.fxs
+<DEBUG> 3-Oct-2018::14:38:17.890 felucia confd[4241]: - Loading file /home/etu/confd-6.4/etc/confd/ietf-netconf-acm.fxs
+<DEBUG> 3-Oct-2018::14:38:17.891 felucia confd[4241]: - Loading file /home/etu/confd-6.4/etc/confd/iana-crypt-hash.fxs
+<DEBUG> 3-Oct-2018::14:38:17.891 felucia confd[4241]: - Loading file /home/etu/confd-6.4/etc/confd/ietf-yang-library.fxs
+<DEBUG> 3-Oct-2018::14:38:17.891 felucia confd[4241]: - Loading file /home/etu/confd-6.4/etc/confd/ietf-netconf-notifications.fxs
+<DEBUG> 3-Oct-2018::14:38:17.892 felucia confd[4241]: - Loading file ./dhcpd.fxs
+<DEBUG> 3-Oct-2018::14:38:17.892 felucia confd[4241]: - Loading file /home/etu/confd-6.4/etc/confd/tailf-netconf-monitoring.fxs
+<DEBUG> 3-Oct-2018::14:38:17.893 felucia confd[4241]: - Loading file /home/etu/confd-6.4/etc/confd/tailf-confd-monitoring.fxs
+<DEBUG> 3-Oct-2018::14:38:17.894 felucia confd[4241]: - Loading file /home/etu/confd-6.4/etc/confd/tailf-acm.fxs
+<DEBUG> 3-Oct-2018::14:38:17.894 felucia confd[4241]: - Loading file /home/etu/confd-6.4/etc/confd/tailf-rollback.fxs
+<DEBUG> 3-Oct-2018::14:38:17.895 felucia confd[4241]: - Loading file /home/etu/confd-6.4/etc/confd/tailf-kicker.fxs
+<DEBUG> 3-Oct-2018::14:38:17.895 felucia confd[4241]: - Loading file /home/etu/confd-6.4/etc/confd/tailf-aaa.fxs
+<DEBUG> 3-Oct-2018::14:38:17.900 felucia confd[4241]: - Loading file /home/etu/confd-6.4/etc/confd/confd.ccl
+<INFO> 3-Oct-2018::14:38:17.960 felucia confd[4241]: - Starting to listen for Internal IPC on 127.0.0.1:4565
+<INFO> 3-Oct-2018::14:38:18.135 felucia confd[4241]: - Starting to listen for NETCONF TCP on 0.0.0.0:2023
+<INFO> 3-Oct-2018::14:38:18.167 felucia confd[4241]: - Starting to listen for CLI SSH on 0.0.0.0:2024
+<INFO> 3-Oct-2018::14:38:18.268 felucia confd[4241]: - ConfD started vsn: 6.4
+<INFO> 3-Oct-2018::16:04:54.591 felucia confd[4241]: - ConfD stopping (confd --stop called by etu in /home/etu/Téléchargements/dhcpd)
+<INFO> 3-Oct-2018::16:04:54.600 felucia confd[4241]: - Stopping to listen for NETCONF TCP on 0.0.0.0:2023
+<INFO> 3-Oct-2018::16:04:54.720 felucia confd[4241]: - Daemon logging terminating, reason: shutdown
+<INFO> 3-Oct-2018::16:04:55.903 felucia confd[6924]: - Writing daemon log to /home/etu/Téléchargements/dhcpd/confd.log
+<INFO> 3-Oct-2018::16:04:55.905 felucia confd[6924]: - Writing NETCONF log to /home/etu/Téléchargements/dhcpd/netconf.log
+<INFO> 3-Oct-2018::16:04:55.905 felucia confd[6924]: - Writing audit log to /home/etu/Téléchargements/dhcpd/audit.log
+<INFO> 3-Oct-2018::16:04:55.905 felucia confd[6924]: - Daemon logging started
+<INFO> 3-Oct-2018::16:04:55.905 felucia confd[6924]: - Writing developer log to /home/etu/Téléchargements/dhcpd/devel.log
+<DEBUG> 3-Oct-2018::16:04:55.916 felucia confd[6924]: - Loading file /home/etu/confd-6.4/etc/confd/ietf-netconf-monitoring.fxs
+<DEBUG> 3-Oct-2018::16:04:55.916 felucia confd[6924]: - Loading file /home/etu/confd-6.4/etc/confd/tailf-common-monitoring.fxs
+<DEBUG> 3-Oct-2018::16:04:55.917 felucia confd[6924]: - Loading file /home/etu/confd-6.4/etc/confd/ietf-netconf-acm.fxs
+<DEBUG> 3-Oct-2018::16:04:55.917 felucia confd[6924]: - Loading file /home/etu/confd-6.4/etc/confd/iana-crypt-hash.fxs
+<DEBUG> 3-Oct-2018::16:04:55.917 felucia confd[6924]: - Loading file /home/etu/confd-6.4/etc/confd/ietf-yang-library.fxs
+<DEBUG> 3-Oct-2018::16:04:55.918 felucia confd[6924]: - Loading file /home/etu/confd-6.4/etc/confd/ietf-netconf-notifications.fxs
+<DEBUG> 3-Oct-2018::16:04:55.918 felucia confd[6924]: - Loading file ./dhcpd.fxs
+<DEBUG> 3-Oct-2018::16:04:55.919 felucia confd[6924]: - Loading file /home/etu/confd-6.4/etc/confd/tailf-netconf-monitoring.fxs
+<DEBUG> 3-Oct-2018::16:04:55.919 felucia confd[6924]: - Loading file /home/etu/confd-6.4/etc/confd/tailf-confd-monitoring.fxs
+<DEBUG> 3-Oct-2018::16:04:55.921 felucia confd[6924]: - Loading file /home/etu/confd-6.4/etc/confd/tailf-acm.fxs
+<DEBUG> 3-Oct-2018::16:04:55.921 felucia confd[6924]: - Loading file /home/etu/confd-6.4/etc/confd/tailf-rollback.fxs
+<DEBUG> 3-Oct-2018::16:04:55.921 felucia confd[6924]: - Loading file /home/etu/confd-6.4/etc/confd/tailf-kicker.fxs
+<DEBUG> 3-Oct-2018::16:04:55.922 felucia confd[6924]: - Loading file /home/etu/confd-6.4/etc/confd/tailf-aaa.fxs
+<DEBUG> 3-Oct-2018::16:04:55.927 felucia confd[6924]: - Loading file /home/etu/confd-6.4/etc/confd/confd.ccl
+<INFO> 3-Oct-2018::16:04:55.985 felucia confd[6924]: - Starting to listen for Internal IPC on 127.0.0.1:4565
+<INFO> 3-Oct-2018::16:04:56.154 felucia confd[6924]: - Starting to listen for NETCONF TCP on 0.0.0.0:2023
+<INFO> 3-Oct-2018::16:04:56.185 felucia confd[6924]: - Starting to listen for CLI SSH on 0.0.0.0:2024
+<INFO> 3-Oct-2018::16:04:56.288 felucia confd[6924]: - ConfD started vsn: 6.4
